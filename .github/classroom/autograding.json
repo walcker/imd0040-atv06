@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "AgendaTest.salvarContatoNovo",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.AgendaTest.salvarContatoNovo",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "AgendaTest.salvarContatoExistente",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.AgendaTest.salvarContatoExistente",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "AgendaTest.updateContato",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.AgendaTest.updateContato",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "AgendaTest.buscarPorNome",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.AgendaTest.buscarPorNome",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "AgendaTest.buscarPorNomeNaoExistente",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.AgendaTest.buscarPorNomeNaoExistente",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "AgendaTest.buscarPorEmail",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.AgendaTest.buscarPorEmail",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "AgendaTest.buscarPorEmailNaoExistente",
+      "setup": "",
+      "run": "gradle test --tests br.ufrn.imd.AgendaTest.buscarPorEmailNaoExistente",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
